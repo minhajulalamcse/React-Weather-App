@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  font-family: "Roboto", sans-serif;
+  height: 5px;
 }
 
 .App-logo {
@@ -35,4 +36,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.heading {
+  text-align: center;
+}
+.currentTemperature {
+  font-size: 35px;
+  margin-left: 35px;
+}
+.card {
+  vertical-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+body {
+  background-image: url("weather.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
